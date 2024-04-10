@@ -87,7 +87,7 @@ public class ExpenseStorage {
 
     /* This method reads the json file to an array, then adds all saved expenses back into the expense-arraylist,
     basically making a copy of the old arraylist which allows user to add more expenses without overwriting the
-    previous ones. Not the greatest solution, but I just couldn't get the f*****g MAPS to work.
+    previous ones. Not the greatest solution, but works for now.
      */
     public void readExpenseFile() throws IOException {
         try {

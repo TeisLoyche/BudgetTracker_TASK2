@@ -87,7 +87,7 @@ public class IncomeStorage {
 
     /* This method reads the json file to an array, then adds all saved income back into the income-arraylist,
     basically making a copy of the old arraylist which allows user to add more income without overwriting the
-    previous ones. Not the greatest solution, but I just couldn't get the f*****g MAPS to work.
+    previous ones. Not the greatest solution, but works for now.
      */
     public void readIncomeFile() throws IOException {
         try {
